@@ -32,7 +32,8 @@
 
     <div style="display:grid;grid-template-columns:1fr 360px;gap:22px;margin-top:18px">
       <div>
-        <form data-booking>
+        <form action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="b55a5c3a-1c38-4d82-8c06-d78230826781">
           <label data-i18n="form.name">Full name</label>
           <input name="name" type="text" data-i18n-placeholder="form.name" placeholder="Full name" required>
 
@@ -58,13 +59,7 @@
           </div>
         </form>
       </div>
-<form action="https://api.web3forms.com/submit" method="POST">
-  <input type="hidden" name="access_key" value="b55a5c3a-1c38-4d82-8c06-d78230826781">
-  <input type="text" name="name" required>
-  <input type="email" name="email" required>
-  <textarea name="message" required></textarea>
-  <button type="submit">Submit</button>
-</form>
+
           <div class="panel">
             <h4 data-i18n="contact.phone">Phone: +212 068 962 2405</h4>
             <p data-i18n="contact.email">Email: Auto.Glow.ma26@gmail.com</p>
