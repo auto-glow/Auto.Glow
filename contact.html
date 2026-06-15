@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en" data-lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Auto Glow — Contact & Booking</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="logo" href="index.html">Auto Glow</a>
+      <nav class="main-nav">
+        <a href="index.html" data-i18n="nav.home">Home</a>
+        <a href="services.html" data-i18n="nav.services">Services</a>
+        <a href="gallery.html" data-i18n="nav.gallery">Gallery</a>
+        <a href="testimonials.html" data-i18n="nav.testimonials">Testimonials</a>
+        <a href="contact.html" class="btn" data-i18n="nav.contact">Contact</a>
+      </nav>
+      <div class="lang-switcher">
+        <button data-lang="en">EN</button>
+        <button data-lang="fr">FR</button>
+        <button data-lang="ar">AR</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container page-hero">
+    <h1 data-i18n="contact.title">Contact & Booking</h1>
+    <p class="lead" data-i18n="contact.subtitle">Simple booking — tell us where and when, we do the rest.</p>
+
+    <div style="display:grid;grid-template-columns:1fr 360px;gap:22px;margin-top:18px">
+      <div>
+        <form data-booking>
+          <label data-i18n="form.name">Full name</label>
+          <input name="name" type="text" data-i18n-placeholder="form.name" placeholder="Full name" required>
+
+          <label data-i18n="form.phone">Phone number</label>
+          <input name="phone" type="tel" data-i18n-placeholder="form.phone" placeholder="Phone number" required>
+
+          <div class="form-row">
+            <div style="flex:1">
+              <label data-i18n="form.date">Preferred date</label>
+              <input name="date" type="date" required>
+            </div>
+            <div style="width:140px">
+              <label data-i18n="form.time">Preferred time</label>
+              <input name="time" type="time">
+            </div>
+          </div>
+
+          <label data-i18n="form.notes">Location & notes</label>
+          <textarea name="notes" data-i18n-placeholder="form.notes" placeholder="Location & notes"></textarea>
+
+          <div class="form-actions">
+            <button type="submit" class="btn primary" data-i18n="form.submit">Request Booking</button>
+          </div>
+        </form>
+      </div>
+
+      <aside>
+          <div class="panel">
+            <h4 data-i18n="contact.phone">Phone: +212 068 962 2405</h4>
+            <p data-i18n="contact.email">Email: Auto.Glow.ma26@gmail.com</p>
+            <p style="color:var(--muted);margin-top:12px">We are mobile — no garage needed. We come to your location in Marrakesh.</p>
+
+            <label style="margin-top:10px" data-i18n="form.location">Google Maps location link</label>
+            <input id="gmaps_link" name="gmaps_link" type="url" placeholder="Paste your Google Maps link here">
+          </div>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <strong>Auto Glow</strong>
+        <p data-i18n="footer.copy">Mobile headlight restoration — Marrakesh. Phone: +212 068 962 2405</p>
+      </div>
+      <div>
+        <a href="mailto:Auto.Glow.ma26@gmail.com">Auto.Glow.ma26@gmail.com</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/i18n.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
