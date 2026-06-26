@@ -22,7 +22,7 @@ const TRANSLATIONS = {
     "trust.title":"Trusted in Marrakesh",
     "trust.desc":"Fast appointments, professional technicians, glowing results.",
 
-    "footer.copy":"Mobile headlight restoration — Marrakesh. Phone: +212 068 962 2405",
+    "footer.copy":"Mobile headlight restoration — Marrakesh. Phone: +212 700 13 97 89",
 
     "services.title":"Headlight Restoration",
     "services.subtitle":"Full mobile restoration to restore clarity and safety.",
@@ -39,7 +39,7 @@ const TRANSLATIONS = {
 
     "contact.title":"Contact & Booking",
     "contact.subtitle":"Simple booking — tell us where and when, we do the rest.",
-    "contact.phone":"Phone: +212 068 962 2405",
+    "contact.phone":"Phone: +212 700 13 97 89",
     "contact.email":"Email: Auto.Glow.ma26@gmail.com",
 
     "form.name":"Full name",
@@ -77,7 +77,7 @@ const TRANSLATIONS = {
     "trust.title":"Fiable à Marrakech",
     "trust.desc":"Rendez-vous rapides, techniciens professionnels, résultats éclatants.",
 
-    "footer.copy":"Restauration mobile de phares — Marrakech. Tél : +212 068 962 2405",
+    "footer.copy":"Restauration mobile de phares — Marrakech. Tél : +212 700 13 97 89",
 
     "services.title":"Restauration de phares",
     "services.subtitle":"Restauration mobile complète pour retrouver clarté et sécurité.",
@@ -94,7 +94,7 @@ const TRANSLATIONS = {
 
     "contact.title":"Contact & Réservation",
     "contact.subtitle":"Réservation simple — dites-nous où et quand, on s'occupe du reste.",
-    "contact.phone":"Tél : +212 068 962 2405",
+    "contact.phone":"Tél : +212 700 13 97 89",
     "contact.email":"Email : Auto.Glow.ma26@gmail.com",
 
     "form.name":"Nom complet",
@@ -132,7 +132,7 @@ const TRANSLATIONS = {
     "trust.title":"موثوق في مراكش",
     "trust.desc":"مواعيد سريعة، تقنيون محترفون، نتائج براقة.",
 
-    "footer.copy":"ترميم المصابيح المتنقل — مراكش. هاتف: +212 068 962 2405",
+    "footer.copy":"ترميم المصابيح المتنقل — مراكش. هاتف: +212 700 13 97 89",
 
     "services.title":"ترميم المصابيح",
     "services.subtitle":"ترميم متنقل كامل لاستعادة الوضوح والسلامة.",
@@ -149,7 +149,7 @@ const TRANSLATIONS = {
 
     "contact.title":"التواصل والحجز",
     "contact.subtitle":"حجز سهل — أخبرنا بالمكان والوقت، وسنتكفل بالباقي.",
-    "contact.phone":"الهاتف: +212 068 962 2405",
+    "contact.phone":"الهاتف: +212 700 13 97 89",
     "contact.email":"البريد: Auto.Glow.ma26@gmail.com",
 
     "form.name":"الاسم الكامل",
